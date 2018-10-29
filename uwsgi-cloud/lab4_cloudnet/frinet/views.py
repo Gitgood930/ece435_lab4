@@ -17,7 +17,7 @@ from .models import *
 from .serializers import UserSerializer, PostSerializer
 
 import memcache
-mc = memcache.Client(['127.0.0.1:11211'],debug=0)
+mc = memcache.Client(['elasticmem.iaq1em.cfg.use1.cache.amazonaws.com:11211'],debug=0)
 
 def index(request):
     return render_to_response('index.html')

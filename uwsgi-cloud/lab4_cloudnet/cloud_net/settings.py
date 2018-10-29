@@ -92,8 +92,8 @@ DATABASES = {
 
 CACHES = {
         'default': {
-            'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
-            'LOCATION': '127.0.0.1:11211',
+            'BACKEND': 'django_elasticache.memcached.ElastiCache',
+            'LOCATION': 'elasticmem.iaq1em.cfg.use1.cache.amazonaws.com:11211',
             }
         }
 
