@@ -1,8 +1,0 @@
-Django
-django-webpack-loader
-djangorestframework
-django-filter
-django-livereload
-python-memcached
-uWSGI
-django-elasticache
