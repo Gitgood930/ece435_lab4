@@ -79,15 +79,12 @@ WSGI_APPLICATION = 'cloud_net.wsgi.application'
 
 DATABASES = {
     'default': {
-         'ENGINE': 'django.db.backends.sqlite3',
-         'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
-
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'lab4_cloudnet',
-#        'USER': 'admin',
-#        'PASSWORD': 'password',
-#        'HOST': 'localhost',
-#        'PORT': '8000',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cloudnet',
+        'USER': 'chuck',
+        'PASSWORD': 'password',
+        'HOST': 'cloudnet-db1.cdli8z24rs4e.us-east-1.rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
 
